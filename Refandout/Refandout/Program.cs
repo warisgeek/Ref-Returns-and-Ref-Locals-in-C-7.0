@@ -17,6 +17,7 @@ namespace Refandout
             if (book != null)
                 book = new Book { Title = "Republic, The", Author = "Plato" };
             bc.ListBooks();
+
             // The example displays the following output:
             //       Call of the Wild, The, by Jack London
             //       Tale of Two Cities, A, by Charles Dickens
